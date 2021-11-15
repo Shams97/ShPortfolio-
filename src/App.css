@@ -1,0 +1,78 @@
+body,html {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0px;
+    height:100%;
+    min-height: 100vh; 
+    min-height: -webkit-fill-available;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.image-cover {
+    background-image: url('./assets/image_personal_info.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 2152px;
+    max-width: 100%;
+    height: 100vh;
+    max-height: 100%;
+    /* z-index: -1; */
+}
+
+.link-custom {
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px #F6793F solid;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    margin-top: 12%;
+    text-align: center;
+    color: #F6793F;
+    padding-top: 0.2em;
+    padding-left: 2em;
+    transform: translate(-40px, 10px);
+    z-index: 3;
+}
+
+.link-custom:hover, .link-custom:active {
+    background-color: #F6793F;
+    color: #fff;
+    transform: translate(-10px, 10px);
+    transition: ease-out 0.3s;
+}
+
+.basic-button {
+    border-radius: 30%;
+    outline: none;
+    border: none;
+    padding: 5% 10%;
+}
+
+#contact_me {
+    height: 400px;
+    background-color: #F6793F;
+}
+
+
+
+@media (min-width:320px) and (max-width:425px){
+    .image-cover {
+        background-image: url('./assets/image_personal_info.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 2152px;
+        max-width: 100%;
+        height: 100vh;
+        max-height: 100%;
+        /* z-index: -1; */
+    }
+    
+}
