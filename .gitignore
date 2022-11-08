@@ -2,3 +2,4 @@ node_module
 package-lock.json 
 !Jekyll.theme.architect
 .history
+/yarn.lock
